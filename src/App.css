@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/006/873/960/non_2x/seamless-pattern-with-sun-cloud-rain-bird-on-white-background-cartoon-weather-background-vector.jpg);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weather-card {
+  background-color: azure;
+  padding: 50px;
+  border: 5px solid black;
+  border-radius: 20px;
+  max-width: 550px;
+  width: 100%;
+  height: 300px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100%;
+
 }
 
-.App-link {
-  color: #61dafb;
+.menu-container {
+  display: flex;
+  justify-content: center;
+  background-color: #E1E1E1;
+  border-radius: 60px;
+  max-width: 700px;
+  width: 100%;
+  padding: 30px;
+  margin-top: 30px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu-container Button {
+  margin-right: 30px;
+}
+
+.menu-container Button:hover {
+  background-color: #6eb5f8;
 }
